@@ -1,0 +1,29 @@
+/* Common styles for notifications */
+.app-card-notification {
+    color: white;
+    font-weight: bold;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styles for bookmark notifications */
+.app-card-notification-bookmark {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25%;
+    padding-bottom: 25%; /* Square shape */
+    border-radius: 50%; /* Make it circular */
+}
+
+/* Styles for corner band notifications */
+.app-card-notification-corner-band {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 25%;
+    clip-path: polygon(100% 0, 100% 100%, 0 0); /* Triangle shape */
+}
